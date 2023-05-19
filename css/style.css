@@ -82,28 +82,72 @@ main h2 {
     font-size: 2.5em;
     background-image: linear-gradient(to right, var(--cor0), var(--cor2));
     padding: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
+    box-shadow: 4px 5px 10px 0px rgba(0, 0, 0, 0.281);
     
 }
 
 main h3 {
+    color: white;
+    text-shadow: 0.1em 0.1em #00000056;
     font-size: 1.5em;
+    padding: 10px;
 }
 
 main p {
+    color: white;
     font-weight: 500;
     line-height: 1,5em;
+    background-color: rgba(0, 0, 0, 0.219);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section.imagem-de-fundo {
+    background-color: var(--cor1);
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px 0px rgba(0, 0, 0, 0.281);
+}
+
+section#img1 {
+    background-image: url(../imagens-games/god-of-war-imagem-de-fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img2 {
+    background-image: url(../imagens-games/red-dead-redemption-2-imagem-de-fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img3 {
+    background-image: url(../imagens-games/the-last-of-us-part-2-imagem-de-fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img4 {
+    background-image: url(../imagens-games/the-witcher-3-imagem-de-fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 img.imagens-games {
     height: 300px;
     display: block;
     margin: auto;
+    border: 2px solid white;
 }
 
 aside {
     background-color: var(--cor1);
     border-radius: 10px;
+    margin-top: 100px;
 }
 
 aside > h3 {
